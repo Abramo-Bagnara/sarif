@@ -54,7 +54,7 @@
         {
           "ruleId": "V591",
           "message": {
-            "text": "Non-void function should return a value."
+            "text": "Non-void function should return a value. [here](1)"
           },
           "level": "error",
           "locations": [
@@ -71,7 +71,26 @@
                 }
               }
             }
-          ]
+          ],
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "f.c"
+                },
+                "region": {
+                  "startLine": 3,
+                  "endLine": 3,
+                  "startColumn": 3,
+                  "endColumn": 6
+                }
+              }
+              "message": {
+                "text": "here related"
+              }
+            }
+          ],
         },
         {
           "ruleId": "V2542",
